@@ -1,0 +1,154 @@
+/* 我的設定 */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', 'Noto Sans TC', sans-serif;
+
+  color: rgb(83, 83, 83);
+  background-color: rgb(241, 241, 255);
+}
+
+/* header */
+header {
+  height: 60px;
+  color: rgb(85, 85, 85);
+  background-color: aliceblue;
+  box-shadow: 0 5px 12px 0 rgba(58, 74, 155, 0.268);
+}
+
+nav {
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* outline: 3px solid tomato; */
+}
+
+.nav-title {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  color: rgb(85, 85, 85);
+}
+
+/* body */
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  /* outline: 3px solid tomato; */
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+  margin: 24px 0 8px;
+  /* outline: 3px solid tomato; */
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: 500;
+}
+
+section {
+  margin-bottom: 48px;
+  /* outline: 2px solid tomato; */
+}
+
+p {
+  color: rgb(133, 133, 133);
+}
+
+/* personal-info */
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* outline: 3px solid tomato; */
+}
+
+.avatar-img {
+  max-width: 40%;
+  border-radius: 50%;
+  border: 5px solid aliceblue;
+  /* outline: 3px solid tomato; */
+}
+
+.name {
+  text-align: center;
+  font-size: 32px;
+  margin: 30px 0;
+}
+
+.social-media {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-media-link {
+  color: rgb(135, 135, 227);
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.social-media-link:hover {
+  color: rgb(254, 177, 105);
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: rgb(135, 135, 227);
+}
+
+/* skill-section */
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* outline: 2px solid tomato; */
+}
+
+.skill {
+  width: 30%;
+  border-top: 1.5px solid rgb(135, 135, 227);
+  padding-top: 10px;
+  /* outline: 2px solid steelblue; */
+}
+
+/* exprerience-section */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: rgba(135, 135, 227, 0.5);
+  margin: 15px;
+}
+
+.company,
+.duration {
+  font-size: 12px;
+  color: rgb(135, 135, 227);
+  margin-right: 20px;
+  letter-spacing: 0.5px;
+}
+
+.fa-building,
+.fa-calendar-days {
+  margin-right: 5px;
+}

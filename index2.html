@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap-test</title>
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/53de98bd08.js" crossorigin="anonymous"></script>
+
+  <!-- google-fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <!-- bootswatch -->
+   <!-- css -->
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <header>
+    <!-- nav -->
+    <nav>
+      <ul class="nav">
+        <li class="nav-item-logo">
+          <a class="nav-link active" aria-current="page" href="#" id="logo">Chang Tzu-Hsien</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyResume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyPick">Pick me up!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspySkills">Skills</a>
+        </li>
+      </ul>
+
+      <!-- 舊按鈕 -->
+      <!-- <a href="#" class="nav-link">
+        <i class="fa-sharp-duotone fa-solid fa-arrow-up-from-bracket"></i>
+      </a> -->
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="fa-sharp-duotone fa-solid fa-arrow-up-from-bracket"></i>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+              
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              👏確定分享該履歷嗎?👏
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                分享
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <!-- jumbotron -->
+    <section class="jumbotron">
+      <img src="cover3.jpg" class="jb-bg-img" alt="Background">
+      <div class="jb-content">
+        <h1 class="jb-name">前端菜雞報到</h1>
+        <p class="jb-subtitle">ξ( ✿＞◡❛)▄︻▇▇〓▄︻┻┳═一</p>
+      </div>
+    </section>
+
+    <!-- personal-info -->
+    <section class="personal-info">
+      <div class="avatar">
+        <img src="me2.jpg" alt="me2" class="avatar-img">
+      </div>
+
+      <div class="info">
+        <h1 class="name-en">
+          Hello,
+          <br>I'm Chang Tzu-Hsien!
+        </h1>
+        <h1 class="name-ch">
+          張子賢
+        </h1>
+
+        <div class="SNS">
+          <a href="#" class="SNS-link" target="_blank">
+            <span>
+              <i class="fa-brands fa-square-instagram fa-fade"></i>
+            </span>
+          </a>
+
+          <a href="#" class="SNS-link" target="_blank">
+            <span>
+              <i class="fa-brands fa-facebook fa-fade"></i>
+            </span>
+          </a>
+
+          <a href="#" class="SNS-link" target="_blank">
+            <span>
+              <i class="fa-solid fa-envelope fa-fade"></i>
+            </span>
+          </a>
+        </div>
+
+        <div class="title">
+          美術設計教學 | 網頁前端工程師 | 高雄台灣
+        </div>
+
+        <div class="description">
+          #我愛打造與研磨作品 #變化與成長讓人欲罷不能!
+          #視覺動物
+          <br>#舒適流暢的操作最高 #好奇與學習讓我覺得活著
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-section" id="scrollspyResume">
+      <div class="resume">
+        <h2>RESUME</h2>
+        <p class="resume-description">
+          畢業於國立台北藝術大學–美術與創作研究所，本科專業為西畫、日本畫、版畫，具有基本PS/AI能力。
+        </p>
+
+        <p class="resume-description">
+          大學時期透過系辦媒合，固定接學校的<span class="text-bold">平面視覺設計案</span>；研究所時期與文化廣告公司合作，撰寫<span
+            class="text-bold">藝文報導專欄</span>；替代役時期由朋友介紹，以接案形式協助設計天文館、餐酒會、嬰兒服飾等不同類型的視覺。
+        </p>
+
+        <p class="resume-description">
+          第一份正職為<span class="text-bold">高職多媒體動畫科教師</span>，溝通與梳理知識是教職的核心技能，同時也體會到了「我待學生如初戀學生虐我百遍」。
+        </p>
+      </div>
+    </section>
+
+    <section class="pick-me-section" id="scrollspyPick">
+      <div class="pick-me">
+        <h2>PICK ME UP!</h2>
+        <p class="pick-me-description">
+          2024年初，因緣際會接觸了<span
+            class="text-bold">網頁前端設計</span>的線上課程，開始利用下班時間學習，持續投入一段時間後，對這個猶如外星世界般奇妙的領域很感興趣，我開始會注意平常操作的網頁是怎麼架構的、可能用到了什麼技術、是否有操作體驗或介面的優化空間等等，<span
+            class="text-bold">試著用工程師的角度去思考。</span>
+        </p>
+        <p class="pick-me-description">
+          因此，看到火箭隊的培訓營在招募學員時真的非常興奮，<span class="text-bold">我想在火箭隊中找到夥伴與教練，用更專業的方式學習程式！</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="skill-section" id="scrollspySkills">
+      <h2>SKILLS</h2>
+      <div class="skills">
+
+        <div class="skill">
+          <img class="skill-img" src="Adobe_Illustrator.png" alt="">
+          <h3>Illustrator</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100">85%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <img class="skill-img" src="Adobe_Photoshop.png" alt="">
+          <h3>Photoshop</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100">85%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <img class="skill-img" src="Midjourney.png" alt="">
+          <h3>Midjourney</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="100">60%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <img class="skill-img" src="html.png" alt="">
+          <h3>HTML</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 6%;" aria-valuenow="6" aria-valuemin="0"
+              aria-valuemax="100">6%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <img class="skill-img" src="css.png" alt="">
+          <h3>CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 6%;" aria-valuenow="6" aria-valuemin="0"
+              aria-valuemax="100">6%</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="end">
+      <span>
+        Copyright©2024 Jacky.com
+      </span>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
